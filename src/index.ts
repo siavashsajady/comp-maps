@@ -1,1 +1,4 @@
-console.log('New project started!');
+import { User } from './User';
+
+const user = new User();
+console.log(user);
